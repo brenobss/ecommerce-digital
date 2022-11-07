@@ -6,6 +6,9 @@
 
 > Learning angular 📚
 
+    Made by Breno Barreto from the start by capgemini project 
+
+
 ## Technologies 🖥️
 
 <table>

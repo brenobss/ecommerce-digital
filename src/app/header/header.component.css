@@ -37,7 +37,7 @@
 }
 
 .main-header__menu a:hover {
-    background-color: var(--dark-green);
+    background-color: var(--dark-gram);
     color: #fff;
 }
 
@@ -75,7 +75,7 @@
 .search-form button {
     width: 56px;
     height: 56px;
-    background-color: var(--dark-green);
+    background-color: var(--dark-gram);
     border: none;
     color: #fff;
     font-size: 22px;

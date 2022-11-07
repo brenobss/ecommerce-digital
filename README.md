@@ -1,27 +1,26 @@
-# EcommerceDigital
+# Digital Ecommerce
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+> Status: Developing ⚠️
 
-## Development server
+## Objective
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+> Learning angular 📚
 
-## Code scaffolding
+## Technologies 🖥️
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<table>
+    <tr>
+        <td>Angular</td>
+        <td>Node</td>
+    </tr>
+    <tr>
+        <td>14.2</td>
+        <td>18.12</td>
+    </tr>
+</table>
 
-## Build
+## How to run the application
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1) run in command line: npm install (for install the dependencies)
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2) run in command line: npm start

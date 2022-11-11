@@ -24,6 +24,7 @@
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 5px;
+    color: var(--dark-green);
 }
 
 .about {
@@ -33,6 +34,7 @@
 .footer__about-text {
     width: 400px;
     text-align: justify;
+    color: var(--dark-green);
 }
 
 

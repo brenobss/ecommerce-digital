@@ -1,7 +1,6 @@
 .cart-title {
   font-size: 44px;
   color: var(--gray);
-  font-weight: 700;
   padding: 8px 0;
 }
 
@@ -38,7 +37,6 @@ img {
 .cart-total {
   font-size: 24px;
   color: var(--gray);
-  font-weight: 700;
   padding: 8px 0;
 }
 

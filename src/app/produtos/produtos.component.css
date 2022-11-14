@@ -47,13 +47,11 @@
 .product-item__price {
   color: var(--green);
   font-size: 32px;
-  font-weight: bold;
 }
 
 .product-item__price-description {
   color: var(--gray);
   font-size: 12px;
-  font-weight: bold;
 }
 
 .product-item__buy-button {

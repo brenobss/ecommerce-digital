@@ -2,11 +2,12 @@
 <section class="contact__container">
   <form class="contact-form" [formGroup]="formContato" (ngSubmit)="enviarForm()">
     <input
+      class="contact-form__input"
       type="text"
       placeholder="Digite o seu nome"
       formControlName="nome"
-      [class.valid]="formContato.controls['nome'].valid"
-      [class.invalid]="formContato.controls['nome'].invalid &&
+      [class.contact-form__input-valid]="formContato.controls['nome'].valid"
+      [class.contact-form__input-invalid]="formContato.controls['nome'].invalid &&
       (formContato.controls['nome'].touched || formContato.controls['nome'].dirty)"
     />
     <div *ngIf="formContato.controls['nome'].invalid &&
@@ -21,11 +22,12 @@
     </div>
 
     <input
+      class="contact-form__input"
       type="assunto"
       placeholder="Digite o assunto"
       formControlName="assunto"
-      [class.valid]="formContato.controls['assunto'].valid"
-      [class.invalid]="formContato.controls['assunto'].invalid &&
+      [class.contact-form__input-valid]="formContato.controls['assunto'].valid"
+      [class.contact-form__input-invalid]="formContato.controls['assunto'].invalid &&
       (formContato.controls['assunto'].touched || formContato.controls['assunto'].dirty)"
     />
     <div *ngIf="formContato.controls['assunto'].invalid &&
@@ -41,11 +43,12 @@
 
     <input
       type="tel"
+      class="contact-form__input"
       placeholder="(00) 0 0000-0000"
       mask="(00) 0 0000-0000"
       formControlName="telefone"
-      [class.valid]="formContato.controls['telefone'].valid"
-      [class.invalid]="formContato.controls['telefone'].invalid &&
+      [class.contact-form__input-valid]="formContato.controls['telefone'].valid"
+      [class.contact-form__input-invalid]="formContato.controls['telefone'].invalid &&
       (formContato.controls['telefone'].touched || formContato.controls['telefone'].dirty)"
     />
     <div *ngIf="formContato.controls['telefone'].invalid &&
@@ -61,10 +64,11 @@
 
     <input
       type="email"
+      class="contact-form__input"
       placeholder="Digite o seu email"
       formControlName="email"
-      [class.valid]="formContato.controls['email'].valid"
-      [class.invalid]="formContato.controls['email'].invalid &&
+      [class.contact-form__input-valid]="formContato.controls['email'].valid"
+      [class.contact-form__input-invalid]="formContato.controls['email'].invalid &&
       (formContato.controls['email'].touched || formContato.controls['email'].dirty)"
     />
     <div *ngIf="formContato.controls['email'].invalid &&
@@ -80,11 +84,12 @@
 
     <textarea
       maxlength="300"
+      class="contact-form__input"
       placeholder="Digite a sua mensagem..."
       rows="4"
       formControlName="mensagem"
-      [class.valid]="formContato.controls['mensagem'].valid"
-      [class.invalid]="formContato.controls['mensagem'].invalid &&
+      [class.contact-form__input-valid]="formContato.controls['mensagem'].valid"
+      [class.contact-form__input-invalid]="formContato.controls['mensagem'].invalid &&
       (formContato.controls['mensagem'].touched || formContato.controls['mensagem'].dirty)">
     </textarea>
     <div *ngIf="formContato.controls['mensagem'].invalid &&
@@ -99,6 +104,7 @@
     </div>
 
     <button [disabled]="formContato.invalid" type="submit">Enviar</button>
+
   </form>
   <address>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.398323529571!2d-38.53537392407683!3d-13.010287487308654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716038285844f45%3A0x123db8b55534402e!2sFarol%20da%20Barra%20-%20Forte%20de%20Santo%20Ant%C3%B4nio%20da%20Barra!5e0!3m2!1spt-BR!2sbr!4v1668439141178!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

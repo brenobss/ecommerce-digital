@@ -12,7 +12,6 @@
   box-sizing: border-box;
   padding: 10px;
   border-radius: 4px;
-  flex: 0 1 270px;
   height: 450px;
   background-color: white;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -52,6 +51,7 @@
 .product-item__price-description {
   color: var(--gray);
   font-size: 12px;
+  margin-bottom: 0;
 }
 
 .product-item__buy-button {
